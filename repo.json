@@ -1,0 +1,8 @@
+{
+    "name": "ardacy2112 tr provider",
+    "description": "Türkçe içerikli eklenti havuzu",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/ardacy2112/cloudstream-ardacyc/builds/plugins.json"
+    ]
+}
