@@ -1,0 +1,40 @@
+[
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/ardacy2112/cloudstream-ardacyc",
+        "fileSize": 7311,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ardacy2112"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "HDFilmCehennemi",
+        "description": "HDFilmCehennemi",
+        "url": "https://raw.githubusercontent.com/ardacy2112/cloudstream-ardacyc/builds/HDFilmCehennemi.cs3",
+        "name": "HDFilmCehennemi"
+    }
+      {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/ardacy2112/cloudstream-ardacyc",
+        "fileSize": 7311,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ardacy2112"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "Selcukflix",
+        "description": "Selcukflix",
+        "url": "https://raw.githubusercontent.com/ardacy2112/cloudstream-ardacyc/builds/Selcukflix.cs3",
+        "name": "Selcukflix"
+    }
+]
