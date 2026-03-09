@@ -1,0 +1,42 @@
+[
+    {
+        "iconUrl": "https://hdfilmcehennemi.nl/wp-content/uploads/2022/11/logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/ardacy2112/cloudstream-ardacyc",
+        "fileSize": 8841,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ardacy2112"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "HDFilmCehennemi",
+        "description": "hdfilmcehennemi.nl film ve dizi kaynagi",
+        "url": "https://raw.githubusercontent.com/ardacy2112/cloudstream-ardacyc/builds/HDFilmCehennemi.cs3",
+        "name": "HDFilmCehennemi"
+    },
+    {
+        "iconUrl": "https://selcukflix.net/wp-content/uploads/2023/10/logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/ardacy2112/cloudstream-ardacyc",
+        "fileSize": 8833,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ardacy2112"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Selcukflix",
+        "description": "selcukflix.net film ve dizi kaynagi",
+        "url": "https://raw.githubusercontent.com/ardacy2112/cloudstream-ardacyc/builds/Selcukflix.cs3",
+        "name": "Selcukflix"
+    }
+]
