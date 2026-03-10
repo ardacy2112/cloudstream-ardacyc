@@ -32,7 +32,7 @@ class SelcukflixProvider : MainAPI() {
         val results = document.select("article, .item, .movie, .tvshow, .result-item, .TPostMv")
             .mapNotNull(::toSearchResponse)
             .distinctBy { it.url }
-        return HomePageResponse(listOf(HomePageList(request.name, results)), hasNext = results.isNotEmpty())
+        return newHomePageResponse(listOf(HomePageList(request.name, results)), hasNext = results.isNotEmpty())
     }
 
     override suspend fun search(query: String): List<SearchResponse> {
