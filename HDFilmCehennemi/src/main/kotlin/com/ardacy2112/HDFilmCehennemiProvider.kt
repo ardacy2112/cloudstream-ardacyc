@@ -2,7 +2,6 @@ package com.ardacy2112
 
 import com.lagradost.cloudstream3.HomePageList
 import com.lagradost.cloudstream3.HomePageResponse
-import com.lagradost.cloudstream3.newHomePageResponse
 import com.lagradost.cloudstream3.MainAPI
 import com.lagradost.cloudstream3.MainPageData
 import com.lagradost.cloudstream3.MainPageRequest
@@ -27,13 +26,13 @@ class HDFilmCehennemiProvider : MainAPI() {
         MainPageData("$mainUrl/diziler", "Diziler")
     )
 
-    override suspend fun getMainPage(page: Int, request: MainPageRequest): newHomePageResponse {
+    override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
         val url = if (page == 1) request.data else "${request.data.trimEnd('/')}/page/$page/"
         val document = app.get(url, referer = mainUrl).document
         val results = document.select("article, .item, .movie, .tvshow, .result-item, .TPostMv")
             .mapNotNull(::toSearchResponse)
             .distinctBy { it.url }
-        return newHomePageResponse(listOf(HomePageList(request.name, results)), hasNext = results.isNotEmpty())
+        return HomePageResponse(listOf(HomePageList(request.name, results)), hasNext = results.isNotEmpty())
     }
 
     override suspend fun search(query: String): List<SearchResponse> {
