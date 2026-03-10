@@ -1,6 +1,6 @@
 package com.ardacy2112
 
-import com.lagradost.cloudstream3.utils.newHomePageResponse
+import com.lagradost.cloudstream3.newHomePageResponse
 import com.lagradost.cloudstream3.HomePageList
 import com.lagradost.cloudstream3.HomePageResponse
 import com.lagradost.cloudstream3.MainAPI
